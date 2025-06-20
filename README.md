@@ -1,1 +1,1 @@
-# Alzheimers-ml-classifier
+# Alzheimers-ML-classifier
