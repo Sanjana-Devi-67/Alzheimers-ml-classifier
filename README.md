@@ -20,11 +20,10 @@ This project builds an integrated machine learning system that:
 
 ## 🛠️ Tech Stack
 
-- **ML / Data:** Python, scikit-learn, XGBoost, TensorFlow/PyTorch, PLINK  
+- **ML / Data:** Python, scikit-learn, XGBoost, TensorFlow/PyTorch, PLINK, ADNI Datasets  
 - **Frontend:** Streamlit  
 - **Backend:** Python (Flask / FastAPI for API if needed)  
-- **Chatbot:** Python (e.g., custom logic / ChatterBot / Rasa if used)  
-- **Visualization:** Matplotlib, Seaborn  
+- **Chatbot:** Python (e.g., custom logic / ChatterBot / Rasa if used)   
 - **Version control:** GitHub  
 
 ---
@@ -33,7 +32,7 @@ This project builds an integrated machine learning system that:
 
 | Name | Role | Contribution |
 |-------|-------|--------------|
-| **V Sanjana Devi** | ML + Integration | Model training, TransferLearning, binary/multi-class classification, integrating model with Streamlit |
+| **V Sanjana Devi** | ML + Integration | Model training, Transfer Learning, binary/multi-class classification, integrating model with Streamlit |
 | **Santhoshimaa M K** | Frontend + Backend setup | Streamlit frontend development, backend API setup (if needed), linking frontend to model |
 | **Sneha M** | Chatbot | Chatbot development and integration with Streamlit interface |
 
