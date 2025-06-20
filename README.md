@@ -33,7 +33,7 @@ This project builds an integrated machine learning system that:
 | Name | Role | Contribution |
 |-------|-------|--------------|
 | **V Sanjana Devi** | ML + Integration | Model training, Transfer Learning, binary/multi-class classification, integrating model with Streamlit |
-| **Santhoshimaa M K** | Frontend + Backend setup | Streamlit frontend development, backend API setup (if needed), linking frontend to model |
+| **Santhoshimaa M K** | Frontend + Backend setup | Streamlit frontend development, backend API setup (if needed), linking frontend to backend |
 | **Sneha M** | Chatbot | Chatbot development and integration with Streamlit interface |
 
 ---
