@@ -36,7 +36,4 @@ This project builds an integrated machine learning system that:
 | **Santhoshimaa M K** | Frontend + Backend setup | Streamlit frontend development, backend API setup (if needed), linking frontend to backend |
 | **Sneha M** | Chatbot | Chatbot development and integration with Streamlit interface |
 
----
-
-## 📂 Project Structure
 
