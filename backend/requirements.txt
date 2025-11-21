@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+itsdangerous
+authlib
+python-jose
+langdetect
+transformers
+torch
+scikit-learn
+sentence-transformers
+faiss-cpu
+pydantic
+starlette
+python-multipart
+python-dotenv
+openai>=1.0.0

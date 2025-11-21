@@ -1,0 +1,34 @@
+prompt_age:
+  en: "Could you please tell me your age?"
+  hi: "कृपया अपनी उम्र बताएं।"
+  kn: "ದಯವಿಟ್ಟು ನಿಮ್ಮ ವಯಸ್ಸು ಹೇಳಿ."
+
+prompt_family_history:
+  en: "Do you have a family history of memory issues?"
+  hi: "क्या आपके परिवार में याददाश्त की समस्याओं का इतिहास है?"
+  kn: "ನಿಮ್ಮ ಕುಟುಂಬದಲ್ಲಿ ಮೆಮೊರಿ ಸಮಸ್ಯೆಗಳ ಇತಿಹಾಸ ಇದೆಯೇ?"
+
+prompt_memory_freq:
+  en: "How often do you notice memory problems?"
+  hi: "आपको कितनी बार याददाश्त की समस्या महसूस होती है?"
+  kn: "ನೀವು ಎಷ್ಟು ಬಾರಿ ಮೆಮೊರಿ ಸಮಸ್ಯೆಗಳನ್ನು ಗಮನಿಸುತ್ತೀರಿ?"
+
+prompt_yes_no:
+  en: "Can you confirm yes or no?"
+  hi: "क्या आप हाँ या नहीं की पुष्टि कर सकते हैं?"
+  kn: "ನೀವು ಹೌದು ಅಥವಾ ಇಲ್ಲ ಎಂದು ದೃಢೀಕರಿಸಬಹುದೇ?"
+
+risk_high:
+  en: "I’m really sorry {name} — based on what you shared, the risk appears to be HIGH (score: {score}). This can feel scary. I’m not a doctor, but I recommend seeing a specialist. Would you like tips on what to ask your doctor?"
+  hi: "मुझे खेद है {name} — आपके द्वारा साझा की गई जानकारी के आधार पर, जोखिम उच्च दिखाई दे रहा है (score: {score})। क्या आप डॉक्टर से पूछने के लिए सुझाव चाहेंगे?"
+  kn: "{name}, ನಿಮ್ಮ ಹಂಚಿಕೆಯಲ್ಲಿ ಆಧಾರಿತವಾಗಿ, ಅಪಾಯ ಉನ್ನತವಾಗಿದೆ (score: {score}) ಎಂದು ಕಾಣುತ್ತಿದೆ. ನೀವು ಡಾಕ್ಟರ್‌ಗೆ ಕೇಳಲು ಸಲಹೆಗಳನ್ನು ಬಯಸುತ್ತೀರಾ?"
+
+risk_medium:
+  en: "Thanks for sharing, {name}. Based on your answers, the risk looks MEDIUM (score: {score}). Would you like some self-care suggestions?"
+  hi: "साझा करने के लिए धन्यवाद, {name}। जोखिम मध्यम दिखाई देता है (score: {score})। क्या आप कुछ स्वयं-देखभाल सुझाव चाहते हैं?"
+  kn: "ಹಂಚಿಕೆಗೆ ಧನ್ಯವಾದಗಳು {name}. ಅಪಾಯ ಮಧ್ಯಮವಾಗಿದೆ (score: {score}). ನೀವು ಸ್ವ-ಕಾಳಜಿ ಸಲಹೆಗಳನ್ನು ಬಯಸುತ್ತೀರಾ?"
+
+risk_low:
+  en: "Good news, {name} — your risk looks LOW (score: {score}). Would you like general brain health tips?"
+  hi: "अच्छी खबर, {name} — आपका जोखिम कम दिखाई देता है (score: {score})। क्या आप सामान्य मस्तिष्क स्वास्थ्य सुझाव चाहते हैं?"
+  kn: "ಚೆನ್ನಿ ಸುದ್ದಿ, {name} — ನಿಮ್ಮ ಅಪಾಯ ಕಡಿಮೆಯಾಗಿದೆ (score: {score}). ನೀವು ಸಾಮಾನ್ಯ ಮೆದುಳು ಆರೋಗ್ಯ ಸಲಹೆಗಳನ್ನು ಬಯಸುತ್ತೀರಾ?"
