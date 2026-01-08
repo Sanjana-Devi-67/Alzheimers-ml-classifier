@@ -226,9 +226,9 @@ const PatientDetails = () => {
                                     </Typography>
                                 )}
 
-                                <Typography variant="body1" color="textSecondary" sx={{ mb: 2 }}>
+                                {/* <Typography variant="body1" color="textSecondary" sx={{ mb: 2 }}>
                                     Confidence: {(latestPrediction.confidence_score * 100).toFixed(1)}%
-                                </Typography>
+                                </Typography> */}
                                 
                             </Box>
                         ) : ( <Typography align="center" sx={{ mt: 4, mb: 4}}>No prediction data available.</Typography> )}
@@ -242,7 +242,7 @@ const PatientDetails = () => {
                                         primary={`${new Date(p.created_at).toLocaleString()}: ${p.prediction_result}`} 
                                         secondary={
                                             <>
-                                                <Typography component="span" variant="body2">Confidence: {(p.confidence_score * 100).toFixed(1)}%</Typography>
+                                                {/* <Typography component="span" variant="body2">Confidence: {(p.confidence_score * 100).toFixed(1)}%</Typography> */}
                                                 {p.stage && p.stage !== "N/A" && (
                                                     <Typography component="span" variant="body2" color="secondary" sx={{ ml: 2 }}>Stage: {p.stage}</Typography>
                                                 )}
