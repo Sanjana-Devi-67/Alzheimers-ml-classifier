@@ -144,17 +144,101 @@ A lightweight chatbot interface was integrated to:
 
 ---
 
-## 🏗️ System Architecture
+## 🧠 End-to-End System Architecture
 
 ```mermaid
-flowchart TD
-    A[ADNI Data] --> B[Data Engineering]
-    B --> C[Feature Engineering]
-    C --> D["ADASYN (within folds)"]
-    D --> E[Model Training]
-    E --> F["Binary & Multi-class Prediction"]
-    F --> G[Web Interface]
-    G --> H[Chatbot Interaction]
+graph LR
+
+%% ================= DATA LAYER =================
+subgraph DL["📦 Data Layer"]
+    A1[ADNI Genomic SNP Data]
+    A2[Clinical & Cognitive Data]
+    A3[Demographic & APOE4]
+end
+
+%% ================= DATA ENGINEERING =================
+subgraph DE["⚙️ Data Engineering Layer"]
+    B1[Subject Alignment]
+    B2[Missing Value Handling]
+    B3[Label Construction]
+    B4[Feature Filtering]
+end
+
+%% ================= FEATURE ENGINEERING =================
+subgraph FE["🧪 Feature Engineering Layer"]
+    C1[Cognitive Feature Stream]
+    C2[Genetic Feature Stream]
+    C3[Early Fusion Stream]
+    C4[Feature Selection\nStrict → 39 → 31]
+end
+
+%% ================= IMBALANCE HANDLING =================
+subgraph IMB["⚖️ Imbalance Handling"]
+    D1["ADASYN (within CV folds)"]
+end
+
+%% ================= MODEL LAYER =================
+subgraph ML["🤖 Model Layer"]
+    E1[Logistic Regression]
+    E2[SVM RBF]
+    E3[Random Forest]
+    E4[XGBoost Binary Model]
+    E5[CatBoost Multiclass Model]
+end
+
+%% ================= EVALUATION =================
+subgraph EV["📊 Evaluation Layer"]
+    F1[Stratified Cross Validation]
+    F2[Confusion Matrix]
+    F3[F1 / ROC / Stability]
+end
+
+%% ================= APPLICATION =================
+subgraph APP["🌐 Application Layer"]
+    G1[Prediction API]
+    G2[Web Interface]
+    G3[CSV Upload Module]
+end
+
+%% ================= CHATBOT =================
+subgraph CHAT["💬 AI Chatbot System"]
+    H1[User Query]
+    H2[LLM Processing]
+    H3[Response Generation]
+end
+
+%% ================= FLOW =================
+A1 --> B1
+A2 --> B1
+A3 --> B1
+
+B1 --> B2 --> B3 --> B4
+B4 --> C1
+B4 --> C2
+B4 --> C3
+
+C1 --> C4
+C2 --> C4
+C3 --> C4
+
+C4 --> D1
+D1 --> E1
+D1 --> E2
+D1 --> E3
+D1 --> E4
+D1 --> E5
+
+E4 --> F1
+E5 --> F1
+
+F1 --> F2 --> F3
+F3 --> G1
+
+G1 --> G2
+G2 --> G3
+G2 --> H1
+
+H1 --> H2 --> H3
 ```
 
 ---
