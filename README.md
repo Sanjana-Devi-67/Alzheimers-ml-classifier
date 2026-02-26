@@ -150,9 +150,9 @@ A lightweight chatbot interface was integrated to:
 flowchart TD
     A[ADNI Data] --> B[Data Engineering]
     B --> C[Feature Engineering]
-    C --> D[ADASYN (within folds)]
+    C --> D["ADASYN (within folds)"]
     D --> E[Model Training]
-    E --> F[Binary & Multi-class Prediction]
+    E --> F["Binary & Multi-class Prediction"]
     F --> G[Web Interface]
     G --> H[Chatbot Interaction]
 ```
